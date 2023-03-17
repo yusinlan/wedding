@@ -210,7 +210,7 @@
 }
 
 .evaluate_content li:hover p + img{ 
-    transform: translateY(-320px);
+    transform: translateY(-400px);
 }
 
 
