@@ -20,7 +20,7 @@
 
 .about_titel > ul > li{
     /* border: 1px solid black; */
-    margin-left: 10px;
+    margin: 0 10px;
 }
 
 .about_titel > ul > .fa-house{
@@ -28,6 +28,10 @@
     font-size: 26px;
     padding-bottom: 10px;
     margin-left: 40px;
+}
+
+.about_titel > ul > .fa-chevron-right{
+    font-size: 12px;
 }
 
 .about_titel > ul > li > a{
@@ -39,31 +43,36 @@
 }
 
 
-/* ------------ brand_concept ------------ */
-.brand_concept{
+.about_titel li:hover a{
+    color: rgb(38, 74, 255);
+}
+
+/* ------------ brand_content ------------ */
+.brand_content{
     /* border: 1px solid red; */
     max-width: 100%;
     background-image: url("../img/brand_bgm.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    text-align: center;
     margin: 50px;
 }
 
-.brand_concept > h1{
+.brand_content > h1{
+    text-align: center;
     margin: 20px;
     letter-spacing: 5px;
     text-shadow: 3px 3px 3px rgb(216, 212, 212);
 }
 
-.brand_concept > p{
+.brand_content > p{
     margin: 20px;
-    font-size: 28px;
+    font-size: 20px;
     line-height: 1.6;
     letter-spacing: 8px;
     padding: 10px;
     text-shadow: 3px 3px 3px rgb(216, 212, 212);
+    text-align: justify;
 }
 
 .team{

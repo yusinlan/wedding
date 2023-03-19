@@ -7,7 +7,7 @@ body{
 }
 
 .wrapper{
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -109,19 +109,18 @@ body{
 .top_right{
     background-color: rgb(238, 246, 251);
     /* background-color: gray; */
+    text-align: center;
+    font-size: 18px;
     position: absolute;
     width: 100%;
     right: 0px;
     top: -660px;
-    text-align: center;
-    font-size: 18px;
     opacity: 0;
     transition: 1s;
 }
 
 .top_right li{
     /* border: 1px solid blue; */
-    padding: 12px 20px;
     letter-spacing: 1px;
 }
  
@@ -136,9 +135,11 @@ body{
 .top_right li a{
     /* border: 1px solid green; */
     text-decoration: none;
+    padding: 12px;
     color: black;
     display: block;
 }
+
 
 .top_right li a i{
     font-size: 18px;
@@ -154,4 +155,8 @@ body{
 }
 
 
+.top_right li:hover a,
+.top_content li:hover .ask{
+    color:rgb(38, 74, 255);
+}
 

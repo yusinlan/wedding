@@ -26,7 +26,7 @@
 
 .news_titel > ul > li{
     /* border: 1px solid black; */
-    margin-left: 10px;
+    margin: 0 10px;
 }
 
 .news_titel> ul > .fa-house{
@@ -37,13 +37,21 @@
 }
 
 
+.news_titel > ul > .fa-chevron-right{
+    font-size: 12px;
+}
+
 .news_titel > ul > li > a{
     text-decoration: none;
     /* border: 1px solid purple; */
     color: black;
     letter-spacing: 2px;
     text-shadow: 3px 3px 3px rgb(216, 212, 212);
-}  
+}
+
+.news_titel li:hover a{
+    color: rgb(38, 74, 255);
+}
 
 
 /* --------------- news_content ----------------- */

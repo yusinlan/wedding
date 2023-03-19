@@ -15,7 +15,7 @@
 
 .evaluate_titel > ul > li{
     /* border: 1px solid black; */
-    margin-left: 10px;
+    margin: 0 10px;
 }
 
 .evaluate_titel > ul > .fa-house{
@@ -23,6 +23,10 @@
     font-size: 26px;
     padding-bottom: 10px;
     margin-left: 40px;
+}
+
+.evaluate_titel > ul > .fa-chevron-right{
+    font-size: 12px;
 }
 
 .evaluate_titel > ul > li > a{
@@ -33,13 +37,16 @@
     text-shadow: 3px 3px 3px rgb(216, 212, 212);  
 }
 
-
+.evaluate_titel li:hover a{
+    color: rgb(38, 74, 255);
+}
 
 
 
 /* -------------------- evaluate_content --------------- */
 .evaluate_content{
     letter-spacing: 2px;
+    /* border: 1px solid red; */
 }
 
 .evaluate_content .star{
@@ -55,7 +62,8 @@
 }
 
 .evaluate_content p{
-    font-size: 22px;
+    font-size: 20px;
+    text-align: justify;
     padding: 20px;
     line-height: 1.5;
     text-shadow: 3px 3px 3px rgb(216, 212, 212);
@@ -74,6 +82,9 @@
     box-shadow: 3px 3px 5px rgb(208, 207, 207);
 }
 
+.evaluate_content li{
+    border-radius: 10px;
+}
 
 /* ------------------- evaluate_top -------------------- */
 .evaluate_top{
@@ -87,7 +98,7 @@
 .evaluate_left1{
     /* border: 1px solid blue; */
     width: 45%;
-    margin: 20px;
+    margin: 0 20px;
     flex-grow: 1;
 }
 
@@ -104,7 +115,7 @@
 .evaluate_right1{
     /* border: 1px solid blue; */
     width: 45%;
-    margin: 20px;
+    margin: 0 20px;
     flex-grow: 1;
 }
 
@@ -129,10 +140,10 @@
 .evaluate_left2{
     /* border: 1px solid blue; */
     width: 45%;
-    margin: 20px;
+    margin: 0 20px;
     flex-grow: 1;
-    margin-bottom: 250px;
-    margin-top: -250px;
+    margin-bottom: 200px;
+    margin-top: -200px;
 }
 
 .evaluate_left2 > li > img {
@@ -147,14 +158,15 @@
 .evaluate_right2{
     /* border: 1px solid blue; */
     width: 45%;
-    margin: 20px;
+    margin: 0 20px;
     flex-grow: 1;
-    margin-top: 100px;
-    margin-bottom: -100px;
+    /* margin-top: 100px;
+    margin-bottom: -100px; */
 }
 
 .evaluate_right2 > li > img {
     width: 100%;
     display: block;
     box-sizing: border-box;
+    margin-top: 100px;
 }

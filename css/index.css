@@ -30,8 +30,6 @@
     margin: 20px 10px;
     text-align: center;
     flex-grow: 2;
-    /* border: 2px solid black; */
-    /* border-radius: 10px; */
     z-index: 99;
 }
 
@@ -43,7 +41,7 @@
     font-size: 20px;
     line-height: 1.8;
     letter-spacing: 5px;
-    text-shadow: 2px 2px 3px  rgb(236, 184, 191);
+    text-shadow: 1px 1px 3px  rgb(236, 184, 191);
 }
 
 .main_right{
@@ -75,7 +73,7 @@
 .wedding h1{
     /* outline: 1px solid purple; */
     margin: 30px;
-    text-shadow: 3px 3px 3px rgb(236, 165, 175);
+    text-shadow: 2px 2px 2px rgb(236, 165, 175);
 
 }
 
@@ -83,19 +81,19 @@
     /* border: 1px solid blue; */
     display: flex;
     text-align: left;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .wedding_content li > h2{
     font-size: 24px;
     margin: 40px 20px 5px;
-    text-shadow: 2px 2px 3px rgb(236, 184, 191);
+    text-shadow: 1px 1px 3px rgb(236, 184, 191);
 }
 
 .wedding_content li > h3{
     font-size: 20px;
     padding: 5px 20px;
-    text-shadow: 2px 2px 3px  rgb(236, 184, 191);
+    text-shadow: 1px 1px 3px  rgb(236, 184, 191);
 }
 
 .wedding_content li{
@@ -133,20 +131,16 @@
     background-repeat: no-repeat;
 }
 
-.fa-circle-chevron-right{
+.fa-chevron-left,
+.fa-chevron-right{
     /* border: 1px solid red; */
-    position: absolute;
+    /* position: absolute;
     right: -70px;
-    bottom: 280px;
-    font-size: 60px;
+    bottom: 280px; */
+    font-size: 30px;
+    margin: 10px;
 }
 
-.fa-circle-chevron-left{
-    position: absolute;
-    left: -70px;
-    bottom: 280px;
-    font-size: 60px;
-}
 
 /* -------------- 新人評價 --------------- */
 .evaluate{
@@ -158,13 +152,14 @@
     /* border: 1px solid yellow; */
     margin: 80px 30px 0;
     text-align: center;
-    text-shadow: 3px 3px 3px rgb(236, 165, 175);
+    text-shadow: 2px 2px 2px rgb(236, 165, 175);
 }
 
 .evaluate .evaluate_content{
     /* border: 1px solid purple; */
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .evaluate_content > li{
@@ -174,7 +169,7 @@
     width: 500px;
     margin: 50px auto 80px;
     padding: 20px;
-    position: relative; 
+    position: relative;
 }
 
 .evaluate_content .star{
@@ -185,15 +180,16 @@
 }
 
 .evaluate_content li > p{
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.8;
+    text-align: justify;
 }
 
 .evaluate_content p + p{
     /* border: 1px solid blue; */
     text-align: right;
     letter-spacing: 4px;
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 20px;
 }
 
