@@ -15,7 +15,7 @@
 }
 
 .main_left:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .main_left img{
@@ -49,7 +49,7 @@
 }
 
 .main_right:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .main_right img{

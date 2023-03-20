@@ -200,6 +200,8 @@
     resize: none;
     padding: 10px;
     border-radius: 10px;
+    border: 2px solid rgb(215, 215, 215);
+
 }
 
 .form_footer .send{
@@ -211,6 +213,13 @@
     letter-spacing: 2px;
     text-align: center;
     padding: 5px;
+    transition: .5s;
 }
 
+
+.form_footer li:hover .send{
+    background-color: rgb(253, 146, 185);
+    color: white;
+    transform: scale(1.1);
+}
 
