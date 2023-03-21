@@ -1,6 +1,7 @@
 @import url('reset.css');
 
 body{
+    font-family: 'Noto Sans TC', sans-serif;
     font-size: 36px;
     font-weight: bold;
     background-color: white;
@@ -21,7 +22,7 @@ body{
     top: 0;
     left: 0;
     right: 0;
-    margin: auto;
+    /* margin: auto; */
     z-index: 100;
 }
 
@@ -34,8 +35,9 @@ body{
 /* ----------- top_left --------- */
 .top_left{
     /* outline: 1px solid gray; */
-    margin: 10px 0 10px 10px;
-    max-width: 36%;
+    margin: 15px 0 15px 10px;
+    width: 250px;
+    
 }
 
 .top_content{
@@ -47,11 +49,12 @@ body{
 .top_content li{
     /* outline: 1px solid yellow; */
     margin-bottom: 10px;
-    padding: 10px;
+    padding-top: 10px;
+    font-size: 16px;
 }
 
 .top_content li a{
-    padding-left: 20px;
+    padding-left: 15px;
     color: black;
 }
 
@@ -65,8 +68,9 @@ body{
 }
 
 .top_logo {
-    margin: auto;
-    text-align: center;
+    margin-left: 4%;
+    /* text-align: center; */
+   
 }
 
 .top_logo img{
@@ -81,27 +85,25 @@ body{
 /* ----------- top_MEUN --------- */
 .top_meun{
     /* outline: 1px solid purple;  */
-    text-align: center;
+    text-align: end;
     position: relative;
 }
 
 .top_meun .fa-bars{
     /* outline: 1px solid blue; */
-    margin-top: 40px;
-    margin-right: 40px;
+    text-align: center;
     font-size: 40px;
+    padding: 50px 25px;
 }
 
 .top_meun p{
-    font-size: 20px;
+    font-size: 12px;
     letter-spacing: 2px;
-    margin-top: 10px;
-    margin-right: 35px;
 }
 
-.top_meun:hover > ul{
+.top_meun:hover  ul{
     opacity: 1;
-    transform: translateY(826px);
+    transform: translateY(800px);
 }
 
 
@@ -159,4 +161,3 @@ body{
 .top_content li:hover .ask{
     color:rgb(38, 74, 255);
 }
-
