@@ -3,7 +3,6 @@
 body{
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 36px;
-    font-weight: bold;
     background-color: white;
 }
 
@@ -35,7 +34,6 @@ body{
 /* ----------- top_left --------- */
 .top_left{
     /* outline: 1px solid gray; */
-    margin: 15px 0 15px 10px;
     width: 250px;
     
 }
@@ -48,9 +46,8 @@ body{
 
 .top_content li{
     /* outline: 1px solid yellow; */
-    margin-bottom: 10px;
-    padding-top: 10px;
-    font-size: 16px;
+    padding: 10px;
+    font-size: 14px;
 }
 
 .top_content li a{
@@ -63,7 +60,7 @@ body{
 }
 
 .top_content .ask{
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none;
 }
 
@@ -75,9 +72,7 @@ body{
 
 .top_logo img{
     /* outline: 1px solid green; */
-    width: 230px;
-    height: 106px;
-    padding: 20px 0;
+    padding: 15px 0;
 }
 
 
@@ -92,8 +87,8 @@ body{
 .top_meun .fa-bars{
     /* outline: 1px solid blue; */
     text-align: center;
-    font-size: 40px;
-    padding: 50px 25px;
+    font-size: 35px;
+    padding: 30px;
 }
 
 .top_meun p{
@@ -128,6 +123,7 @@ body{
  
 .top_right .right_i{
     text-align: left;
+    font-size: 14px;
 }
 
 .top_right .right_nav{
@@ -144,20 +140,12 @@ body{
 
 
 .top_right li a i{
-    font-size: 18px;
-    width: 40px;
-}
-
-.top_img > img{
-    /* border: 1px solid red; */
-    display: block;
-    width: 100%;
-    margin-top: 200px;
-    margin-bottom: 50px;
+    font-size: 16px;
+    width: 30px;
 }
 
 
 .top_right li:hover a,
 .top_content li:hover .ask{
-    color:rgb(38, 74, 255);
+    color:rgb(116, 192, 255);
 }

@@ -1,6 +1,37 @@
 
 
 /* ------------- 標語 ------------- */
+
+.top_img{
+    /* border: 1px solid red; */
+    max-width: 1200px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.top_img > img{
+    display: block;
+    width: 100%;
+}
+
+.top_img h1{
+    letter-spacing: 15px;
+    font-size: 60px;
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(255, 236, 236);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 4px 4px 3px rgb(79, 79, 79);
+    text-align: right;
+    margin-top: -200px;
+    margin-right: 20px;
+}
+
+.top_img::after {
+	content: ""; 
+	display: block;
+    padding-bottom: 12%;
+}
+
 .banner{
     /* border: 1px solid blue; */
 }
@@ -11,7 +42,7 @@
 }
 
 .main_left{
-    transition: 1.5s;
+    transition: 1s;
 }
 
 .main_left:hover{
@@ -21,8 +52,8 @@
 .main_left img{
     width: 400px;
     margin: 20px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 5px 3px rgb(181, 179, 179);
+    border-radius: 2px;
+    box-shadow: 3px 3px 5px rgb(181, 179, 179);
 }
 
 .main_titel{
@@ -39,13 +70,12 @@
 
 .main_titel > p{
     font-size: 20px;
-    line-height: 1.8;
+    line-height: 2.2;
     letter-spacing: 5px;
-    text-shadow: 1px 1px 3px  rgb(236, 184, 191);
 }
 
 .main_right{
-    transition: 1.5s;
+    transition: 1s;
 }
 
 .main_right:hover{
@@ -55,8 +85,8 @@
 .main_right img{
     width: 400px;
     margin: 20px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 5px 3px rgb(181, 179, 179);
+    border-radius: 2px;
+    box-shadow: 3px 3px 5px rgb(181, 179, 179);
 }
 
 
@@ -73,7 +103,6 @@
 .wedding h1{
     /* outline: 1px solid purple; */
     margin: 30px;
-    text-shadow: 2px 2px 2px rgb(236, 165, 175);
 
 }
 
@@ -81,66 +110,57 @@
     /* border: 1px solid blue; */
     display: flex;
     text-align: left;
-    overflow: hidden;
+    letter-spacing: 2px;
+    /* overflow: hidden; */
 }
 
 .wedding_content li > h2{
     font-size: 24px;
-    margin: 40px 20px 5px;
-    text-shadow: 1px 1px 3px rgb(236, 184, 191);
+    margin: 10px 40px 0;
+    text-align: center;
+    width: 40%;
 }
 
 .wedding_content li > h3{
     font-size: 20px;
-    padding: 5px 20px;
-    text-shadow: 1px 1px 3px  rgb(236, 184, 191);
+    padding: 10px;
+    margin-left: 10px;
+    text-align: center;
+    width: 50%;
 }
 
 .wedding_content li{
     /* outline: 1px solid yellow; */
     width: 400px;
-    height: 600px;
-    border-radius: 10px;
-    margin-right: 40px;
+    /* height: 600px; */
+    margin-right: 20px;
     flex-shrink: 0;
-    box-shadow: 3px 3px 5px 3px rgb(181, 179, 179);
+    box-shadow: 2px 2px 3px rgb(181, 179, 179);
 }
 
-.wedding_content > .wedding_1{
-    background-image: url(../img/fron_wedding1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+.wedding_content li img{
+    width: 100%;
+    display: block;
 }
 
-.wedding_content > .wedding_2{
-    background-image: url(../img/fron_wedding2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-
-.wedding_content > .wedding_3{
-    background-image: url(../img/fron_wedding3.JPG);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.wedding_content > .wedding_4{
-    background-image: url(../img/fron_wedding4.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.fa-chevron-left,
 .fa-chevron-right{
     /* border: 1px solid red; */
-    /* position: absolute;
-    right: -70px;
-    bottom: 280px; */
+    position: absolute;
+    right: 0px;
+    bottom: 270px;
     font-size: 30px;
     margin: 10px;
+    color: rgb(255, 255, 255);
 }
 
+.fa-chevron-left{
+    position: absolute;
+    left: 0px;
+    bottom: 270px;
+    font-size: 30px;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+}
 
 /* -------------- 新人評價 --------------- */
 .evaluate{
@@ -152,7 +172,6 @@
     /* border: 1px solid yellow; */
     margin: 80px 30px 0;
     text-align: center;
-    text-shadow: 2px 2px 2px rgb(236, 165, 175);
 }
 
 .evaluate .evaluate_content{
@@ -164,49 +183,53 @@
 
 .evaluate_content > li{
     /* border: 1px solid red; */
-    background-image: linear-gradient(0deg, white 0%,  rgb(253, 200, 213, .7) 50%, white 100%);
+    background-image: linear-gradient(0deg, white 0%,  rgba(243, 224, 229, 0.7) 50%, white 100%);
     border-radius: 10px;
     width: 500px;
     margin: 50px auto 80px;
-    padding: 20px;
+    padding: 30px;
     position: relative;
 }
 
 .evaluate_content .star{
     /* border: 1px solid red; */
-    width: 50%;
+    width: 30%;
     display: block;
-    margin: 20px auto;
+    margin: 25px auto;
 }
 
 .evaluate_content li > p{
-    font-size: 20px;
-    line-height: 1.8;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 2px;
     text-align: justify;
+    margin: 5px 0;
 }
 
 .evaluate_content p + p{
     /* border: 1px solid blue; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: right;
     letter-spacing: 4px;
-    font-size: 20px;
-    margin-top: 20px;
+    font-size: 18px;
+    margin-top: 30px;
 }
 
 .evaluate_content li > p + img {
     /* border: 1px solid blue; */
-    border-radius: 10px;
-    box-shadow: 3px 3px 5px 3px rgb(181, 179, 179);
+    border-radius: 12px;
+    box-shadow: 2px 2px 3px rgb(181, 179, 179);
     width: 100%;
-    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    transition: 1s;
+    transition: 1.5s;
 }
 
 .evaluate_content li:hover p + img{ 
-    transform: translateY(-320px);
+    transform: rotateY(180deg);
+    z-index: -1;
+    opacity: 0;
 }
 
 

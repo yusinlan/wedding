@@ -1,63 +1,111 @@
 /* ------------ footer ----------------- */
-.bottom{
-    /* outline: 1px solid brown; */
+/* .bottom{
+    outline: 1px solid brown;
     background-color: rgb(253, 200, 213, .3);
-    max-width: 100%;
+    width: 100%;
     text-align: center;
-    margin-top: 100px;
     position: relative;
-}
+} */
 
-.bottom > img{
-    margin-top: 20px;
-}
+/* .bottom > img{
+    margin-top: 10px;
+} */
 
-.bottom a{
-    /* border: 1px solid blue; */
+/* .bottom a{
+    border: 1px solid blue;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 16px;
     color: black;
-    padding: 10px;
-
-}
+} */
 
 
-.bottom_content{
+/* .bottom_content{
     margin: 0 auto;
-    /* outline: 1px solid blue; */
-}
-.bottom_content ul{
-    /* border: 1px solid red; */
+    outline: 1px solid blue;
+} */
+/* .bottom_content ul{
+    border: 1px solid red;
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 10px;
-}
+    align-items: center;
+} */
 
-.bottom_content li{
-    /* border: 1px solid peru; */
-    padding: 10px;
-}
+/* .bottom .bottom_content li{
+    border: 1px solid peru;
+    margin: 0 20px;
 
-.bottom_content li:hover a{
-    color: rgb(38, 74, 255);
-}
+} */
 
-.map{
-    /* border: 1px solid red; */
-    padding: 20px 0;
-}
+/* .bottom_content li:hover a{
+    color:rgb(116, 192, 255);
+} */
 
-.map i{
-    font-size: 25px;
+/* .map{
+    border: 1px solid red;
+} */
+
+/* .map i{
+    font-size: 20px;
     margin-right: 10px;
-}
+} */
 
 
-.bottom .fa-circle-chevron-up{
-    /* border: 1px solid yellow; */
-    font-size: 50px;
+/* .bottom .up_icon{
+    border: 1px solid yellow;
+    font-size: 30px;
     position: absolute;
     right: 100px;
     top: 30px;
+} */
+
+
+
+.bottom{
+    background-color: rgb(253, 200, 213, .3);
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.bottom_content{
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+
+
+.bottom_content img{
+    /* border: 1px solid blue; */
+    margin-top: 10px;
+}
+
+.bottom_content ul{
+    /* border: 1px solid purple; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.bottom_content li{
+    /* border: 1px solid green; */
+    width: 100%;
+}
+
+.bottom_content a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    width: 100%;
+}
+
+
+.bottom_content .fa-map-location-dot{
+    font-size: 16px;
+    width: 30px;
+}
+
+.bottom_content li:hover a{
+    color:rgb(116, 192, 255);
 }
