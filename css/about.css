@@ -1,3 +1,35 @@
+/* --------------- top_img -------------- */
+.top_img{
+    /* border: 1px solid red; */
+    max-width: 1200px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.top_img > img{
+    display: block;
+    width: 100%;
+}
+
+.top_img h1{
+    /* font-family: 'Edu NSW ACT Foundation', cursive; */
+    letter-spacing: 15px;
+    font-size: 60px;
+    font-weight: bold;
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(255, 236, 236);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: -120px;
+    margin-left: 40px;
+}
+
+.top_img::after {
+	content: ""; 
+	display: block;
+    padding-bottom: 12%;
+}
+
 /* --------- about_titel -------- */
 .about_titel{
     /* border: 1px solid red; */
@@ -9,7 +41,6 @@
     text-align: center;
     margin: 10px 0;
     letter-spacing: 5px;
-    text-shadow: 3px 3px 3px rgb(216, 212, 212);
 }
 
 .about_titel > ul{
@@ -38,23 +69,22 @@
     text-decoration: none;
     /* border: 1px solid purple; */
     color: black;
-    letter-spacing: 2px;
-    text-shadow: 3px 3px 3px rgb(216, 212, 212);  
+    letter-spacing: 2px;  
 }
 
 
 .about_titel li:hover a{
-    color: rgb(38, 74, 255);
+    color: hsla(200, 100%, 50%, .8)
 }
 
 /* ------------ brand_content ------------ */
 .brand_content{
     /* border: 1px solid red; */
     max-width: 100%;
-    background-image: url("../img/brand_bgm.svg");
+    background-image: url("../img/brand_bgm.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     margin: 50px;
 }
 
@@ -62,19 +92,21 @@
     text-align: center;
     margin: 20px;
     letter-spacing: 5px;
-    text-shadow: 3px 3px 3px rgb(216, 212, 212);
 }
 
 .brand_content > p{
     margin: 20px;
     font-size: 20px;
-    line-height: 1.6;
-    letter-spacing: 8px;
+    line-height: 2;
+    letter-spacing: 6px;
     padding: 10px;
-    text-shadow: 3px 3px 3px rgb(216, 212, 212);
     text-align: justify;
 }
 
+
+
+
+/* -------------- 團隊介紹 -------------- */
 .team{
     /* border: 1px solid blue; */
     max-width: 100%;
@@ -88,7 +120,6 @@
     margin: 30px auto;
     padding: 20px;
     letter-spacing: 5px;
-    text-shadow: 3px 3px 3px rgb(216, 212, 212);
 }
 
 .team > ul{
@@ -109,7 +140,6 @@
     /* border: 1px solid brown; */
     display: inline-block;
     max-width: 100%;
-    height: 82%;
 }
 
 .team > ul > li > h2{
@@ -118,12 +148,10 @@
     letter-spacing: 2px;
     margin: 10px;
     padding-bottom: 5px;
-    text-shadow: 3px 3px 3px rgb(216, 212, 212);
 }
 
 .team > ul > li > p{
     font-size: 20px;
     letter-spacing: 3px;
     margin: 10px;
-    text-shadow: 3px 3px 3px rgb(216, 212, 212);
 }

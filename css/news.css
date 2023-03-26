@@ -1,11 +1,42 @@
+/* --------------- top_img -------------- */
+.top_img{
+    /* border: 1px solid red; */
+    max-width: 1200px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
 
+.top_img > img{
+    display: block;
+    width: 100%;
+}
+
+.top_img h1{
+    /* font-family: 'Edu NSW ACT Foundation', cursive; */
+    letter-spacing: 15px;
+    font-size: 60px;
+    font-weight: bold;
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(49, 49, 49);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: right;
+    margin-top: -150px;
+    margin-right: 20px;
+}
+
+.top_img::after {
+	content: ""; 
+	display: block;
+    padding-bottom: 12%;
+}
+
+
+/* --------------- news_titel ----------------- */
 .news_main{
     /* border: 1px solid red; */
     max-width: 100%;
 }
 
-
-/* --------------- news_titel ----------------- */
 .news_titel{
     /* border: 1px solid blue; */
 }
@@ -14,7 +45,6 @@
     text-align: center;
     margin: 10px 0;
     letter-spacing: 5px;
-    text-shadow: 3px 3px 3px rgb(216, 212, 212);
 }
 
 .news_titel > ul{
@@ -46,11 +76,10 @@
     /* border: 1px solid purple; */
     color: black;
     letter-spacing: 2px;
-    text-shadow: 3px 3px 3px rgb(216, 212, 212);
 }
 
 .news_titel li:hover a{
-    color: rgb(38, 74, 255);
+    color: hsla(200, 100%, 50%, .8)
 }
 
 
@@ -73,11 +102,9 @@
     line-height: 1.5;
     margin: 30px auto;
     max-width: 30%;
-    transition: .8s;
-
 }
 
-.news_content ul > li:hover{
+.news_content ul img:hover{
     transform: scale(1.1);
 }
 
@@ -86,7 +113,8 @@
     display: block;
     max-width: 100%;
     box-sizing: border-box;
-    box-shadow: 5px 5px 5px 3px rgb(207, 182, 191);
+    box-shadow: 3px 3px 5px rgb(181, 179, 179);
+    transition: .8s;
 }
 
 
@@ -94,7 +122,7 @@
     border-bottom: 6px solid rgb(147, 207, 245);
     display: inline-block;
     font-size: 28px;
-    margin: 20px;
+    margin: 30px 20px 20px;
     letter-spacing: 5px;
     text-shadow: 3px 3px 3px rgb(216, 212, 212);
 }
@@ -103,15 +131,13 @@
     font-size: 24px;
     margin: 20px;
     letter-spacing: 2px;
-    text-shadow: 3px 3px 3px rgb(216, 212, 212);
 }
 
 .news_content ul > li p{
     /* border:1px solid black; */
-    color: red; 
+    color: rgb(239, 69, 69); 
     margin: 20px;
     letter-spacing: 2px;
-    text-shadow: 3px 3px 3px rgb(241, 216, 216);
 }
 
 

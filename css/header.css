@@ -1,7 +1,7 @@
 @import url('reset.css');
 
 body{
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Noto Sans TC, Noto Sans', sans-serif;
     font-size: 36px;
     background-color: white;
 }
@@ -10,6 +10,22 @@ body{
     width: 1200px;
     margin: 0 auto;
 }
+
+#up_icon{
+    /* border: 1px solid blue; */
+    text-decoration: none;
+    color: rgb(98, 95, 95);
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    z-index: 99;
+}
+
+#up_icon:hover .fa-circle-chevron-up{
+    color:  hsla(200, 100%, 50%, .8)
+}
+
+
 
 .top_nav{
     /* outline: 1px solid red; */
@@ -98,7 +114,7 @@ body{
 
 .top_meun:hover  ul{
     opacity: 1;
-    transform: translateY(800px);
+    transform: translateY(760px);
 }
 
 
@@ -128,6 +144,7 @@ body{
 
 .top_right .right_nav{
     border-bottom: 1px solid rgb(202, 218, 228);
+    padding: 5px 0;
 }
 
 .top_right li a{
@@ -147,5 +164,8 @@ body{
 
 .top_right li:hover a,
 .top_content li:hover .ask{
-    color:rgb(116, 192, 255);
+    color:hsla(200, 100%, 50%, .8)
 }
+
+
+
