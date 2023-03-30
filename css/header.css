@@ -127,6 +127,7 @@ body{
     position: absolute;
     width: 100%;
     right: 0px;
+    /* top: 100px; */
     top: -660px;
     opacity: 0;
     transition: 1s;

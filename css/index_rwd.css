@@ -1,0 +1,58 @@
+@media screen and (max-width: 414px) {
+/* --------------- top_img -------------- */
+.top_img{
+    width: 100vw;
+}
+.top_img h1{
+    font-size: 1.8rem;
+    letter-spacing: 10px;
+    margin-top: -50px;
+    margin-right: 10px;
+}
+
+/* ------------- 標語 ------------- */
+.main{
+    align-items: center;
+    justify-content: center;
+}
+
+.main_left img{
+    width: 80vw;
+}
+
+.main_titel > p{
+    font-size: 1.2rem;
+}
+
+.main_right img{
+    width: 80vw;
+
+}
+
+
+/* --------------- 婚禮作品 ---------------- */
+.wedding h1{
+    font-size: 2rem;
+}
+.wedding_content li{
+    width: 100vw;
+}
+
+/* -------------- 新人評價 --------------- */
+.evaluate > h1{
+    font-size: 2rem;
+}
+.evaluate_content > li{
+    width: 100vw;
+    font-size: 1rem;
+}
+
+.evaluate_content li > p{
+    font-size: .5rem;
+}
+
+.evaluate_content p + p{
+    font-size: .5rem;
+}
+
+}
