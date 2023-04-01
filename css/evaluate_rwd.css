@@ -1,0 +1,79 @@
+@media screen and (max-width: 414px) {
+    /* --------------- top_img -------------- */
+    .top_img{
+        width: 100vw;
+    }
+    .top_img h1{
+        font-size: 1.8rem;
+        letter-spacing: 5px;
+        margin-top: -80px;
+        -webkit-text-stroke: 1px rgb(252, 252, 252);
+    }
+
+
+
+    /* --------------- evaluate_titel ----------------- */
+
+    .evaluate_titel > h1{
+        font-size: 1.6rem;
+    }
+
+    .evaluate_titel > ul{
+        font-size: .5rem;
+        margin: 0 5px 30px;
+    }
+
+    .evaluate_titel > ul > li{
+        margin: 0 5px;
+    }
+
+    .evaluate_titel > ul > .fa-house{
+        font-size: 1rem;
+        margin-left: 15px;
+        padding-bottom: 5px;
+    }
+
+    
+    /* -------------------- evaluate_content --------------- */
+    .evaluate_content .star{
+        margin: 10px auto;
+    }
+
+    .evaluate_content h2{
+        font-size: 1.4rem;
+    }
+
+    .evaluate_content p{
+        font-size: 1rem;
+    }
+
+    .evaluate_content p + p{
+        font-size: .9rem;
+    }
+
+    .evaluate_content .evaluate_text{
+        margin-bottom: 50px;
+        margin-top: -50px;
+    }
+
+    /* ------------------- evaluate_top -------------------- */
+    .evaluate_top{
+        margin-top: 0px;
+    }
+
+    /* ---------------------- top_left-------------------- */
+    .evaluate_left1{
+        margin-top: 50px;
+    }
+
+    /* -------------------- bottom_left ----------------- */
+    .evaluate_left2{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    /* ----------------- evaluate_right2 ---------------- */
+    .evaluate_right2 > li > img{
+        margin-top: 0;
+    }
+}

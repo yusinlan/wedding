@@ -19,9 +19,8 @@
     color: transparent;
     -webkit-text-stroke: 2px rgb(49, 49, 49);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: right;
-    margin-top: -150px;
-    margin-right: 20px;
+    text-align: center;
+    margin-top: -200px;
 }
 
 .top_img::after {

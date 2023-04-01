@@ -1,0 +1,53 @@
+@media screen and (max-width: 414px) {
+    /* --------------- top_img -------------- */
+    .top_img{
+        width: 100vw;
+    }
+    .top_img h1{
+        font-size: 1.8rem;
+        letter-spacing: 5px;
+        margin-top: -80px;
+        -webkit-text-stroke: 1px rgb(49, 49, 49);
+    }
+
+
+    /* --------------- news_titel ----------------- */
+    .news_titel > h1{
+        font-size: 1.6rem;
+    }
+
+    .news_titel > ul{
+        font-size: .5rem;
+        margin: 0 5px 30px;
+    }
+
+    .news_titel > ul > li{
+        margin: 0 5px;
+    }
+
+    .news_titel> ul > .fa-house{
+        font-size: 1rem;
+        margin-left: 15px;
+        padding-bottom: 5px;
+    }
+
+
+
+    /* --------------- news_content ----------------- */
+    .news_content ul li{
+        max-width: 80vw;
+        text-align: center;
+    }
+
+    .news_content ul > li h2{
+        font-size: 1.6rem;
+    }
+
+    .news_content ul > li h3{
+        font-size: 1.4rem;
+    }
+
+    .news_content ul > li p{
+        font-size: 1.2rem;
+    }
+}

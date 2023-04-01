@@ -35,7 +35,7 @@
             </div>
     
             <!-- MENU -->
-            <div class="top_meun">
+            <div class="top_menu">
                 <i class="fa-sharp fa-solid fa-bars" > <p> MENU</p></i>
     
             <!-- MENU_main -->
@@ -157,11 +157,11 @@
                 <img src="./img/Logo.svg" alt="">
 
                 <ul>
-                    <li><a href="index.html">首頁</a></li>
-                    <li><a href="about.html">關於我們</a></li>
-                    <li><a href="news.html">最新消息</a></li>
-                    <li><a href="service.html">服務內容</a></li>
-                    <li><a href="wedding.html">婚禮作品</a></li>
+                    <li class="hidden"><a href="index.html">首頁</a></li>
+                    <li class="hidden"><a href="about.html">關於我們</a></li>
+                    <li class="hidden"><a href="news.html">最新消息</a></li>
+                    <li class="hidden"><a href="service.html">服務內容</a></li>
+                    <li class="hidden"><a href="wedding.html">婚禮作品</a></li>
                     <li><a href="evaluate.html">新人推薦</a></li>
                 </ul>
 
@@ -174,10 +174,21 @@
     <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $(function(){
-            $(".top_right").slideUp();
-            $(".top_meun").click(function(){
-                $(".top_right").slideToggle();
-            });
+            let viewport = $(window).width();
+            $(".top_right").slideUp()
+            if( viewport <= 1024){
+                let is_open = false // 關閉是false,開啟是true
+                $(".top_menu .fa-bars").click(function(){
+                    if( is_open == false){
+                        $(".top_right").slideDown();
+                        is_open = true;
+                    }else{
+                        $(".top_right").slideUp();
+                        is_open = false;
+                    }
+                    $(".top_right").slideToggle();
+                });
+            }
         });
     </script> -->
 </body>

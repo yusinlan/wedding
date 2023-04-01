@@ -5,9 +5,10 @@
 }
 .top_img h1{
     font-size: 1.8rem;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     margin-top: -50px;
-    margin-right: 10px;
+    margin-right: 20px;
+    -webkit-text-stroke: 1px rgb(244, 244, 244);
 }
 
 /* ------------- 標語 ------------- */
@@ -33,26 +34,54 @@
 /* --------------- 婚禮作品 ---------------- */
 .wedding h1{
     font-size: 2rem;
+    margin-top: 80px;
 }
 .wedding_content li{
     width: 100vw;
 }
 
+.wedding_content li > h2{
+    width: 100vw;
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.wedding_content li > h3{
+    width: 100vw;
+    font-size: 1rem;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.wedding_content li img{
+    width: 100vw;
+}
+
 /* -------------- 新人評價 --------------- */
+.evaluate .evaluate_content{
+    justify-content: space-around;
+    align-content: space-around;
+}
+
 .evaluate > h1{
     font-size: 2rem;
+    margin-top: 100px;
+    padding: 0;
 }
 .evaluate_content > li{
-    width: 100vw;
+    width: 70vw;
     font-size: 1rem;
 }
 
-.evaluate_content li > p{
-    font-size: .5rem;
+.evaluate_content .star{
+    margin: 10px auto;
 }
 
+.evaluate_content li > p,
 .evaluate_content p + p{
     font-size: .5rem;
+    margin-top: 0;
 }
+
 
 }

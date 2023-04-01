@@ -17,7 +17,7 @@ body{
     color: rgb(98, 95, 95);
     position: fixed;
     bottom: 30px;
-    right: 50px;
+    right: 380px;
     z-index: 99;
 }
 
@@ -83,7 +83,11 @@ body{
 .top_logo {
     margin-left: 4%;
     /* text-align: center; */
-   
+}
+
+.top_logo a{
+    display: block;
+    width: 100%;
 }
 
 .top_logo img{
@@ -93,26 +97,26 @@ body{
 
 
 
-/* ----------- top_MEUN --------- */
-.top_meun{
+/* ----------- top_MENU --------- */
+.top_menu{
     /* outline: 1px solid purple;  */
     text-align: end;
     position: relative;
 }
 
-.top_meun .fa-bars{
+.top_menu .fa-bars{
     /* outline: 1px solid blue; */
     text-align: center;
     font-size: 35px;
     padding: 30px;
 }
 
-.top_meun p{
+.top_menu p{
     font-size: 12px;
     letter-spacing: 2px;
 }
 
-.top_meun:hover  ul{
+.top_menu:hover ul{
     opacity: 1;
     transform: translateY(760px);
 }

@@ -1,0 +1,79 @@
+@media screen and (max-width: 414px) {
+    /* --------------- top_img -------------- */
+    .top_img{
+        width: 100vw;
+    }
+    .top_img h1{
+        font-size: 1.8rem;
+        letter-spacing: 5px;
+        margin-top: -50px;
+        margin-left: 90px;
+        -webkit-text-stroke: 1px rgb(49, 49, 49);
+    }
+
+    /* ---------------- ask_title ----------------- */
+    .ask_title > h1{
+        font-size: 1.6rem;
+    }
+
+    .ask_title > ul{
+        font-size: .5rem;
+        margin: 0 5px 30px;
+    }
+
+    .ask_title > ul > li{
+        margin: 0 5px;
+    }
+
+    .ask_title > ul > .fa-house{
+        font-size: 1rem;
+        margin-left: 15px;
+        padding-bottom: 5px;
+    }
+
+    /* ---------- form --------- */
+    .form{
+        width: 100vw;
+    }
+
+    .form ul{
+        width: 80vw;
+    }
+
+    .form_header .form_time select{
+        font-size: .9rem;
+    }
+
+
+
+
+/* --------------- form_service ------------- */
+    .form_service{
+        width: 100vw;
+    }
+
+    .form_service p{
+        margin-left: 60px;
+    }
+
+    .form_service li{
+        width: 50vw;
+    }
+
+
+    /* -------------- form_footer --------------- */
+    .form_footer{
+        width: 100vw;
+    }
+
+    .form_footer label{
+        font-size: .8rem;
+    }
+
+    .form_footer textarea{
+        font-size: 1rem;
+        line-height: 1.5;
+        letter-spacing: 2px;
+    }
+
+}
