@@ -12,6 +12,8 @@
     <link rel="stylesheet" href='./css/index.css'>
     <link rel="stylesheet" href="./css/header&footer_rwd.css">
     <link rel="stylesheet" href="./css/index_rwd.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"> -->
     <title>首頁</title>
 </head>
 <body>
@@ -105,8 +107,8 @@
                     </li>
                 </ul>
 
-                <i class="fa-solid fa-chevron-left"></i>
-                <i class="fa-solid fa-chevron-right"></i>
+                <i class="fa-solid fa-chevron-left prev"></i>
+                <i class="fa-solid fa-chevron-right next"></i>
             </div>
 
             <!-- 新人評價 -->
@@ -171,25 +173,9 @@
     </div>
 
 
-    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        $(function(){
-            let viewport = $(window).width();
-            $(".top_right").slideUp()
-            if( viewport <= 1024){
-                let is_open = false // 關閉是false,開啟是true
-                $(".top_menu .fa-bars").click(function(){
-                    if( is_open == false){
-                        $(".top_right").slideDown();
-                        is_open = true;
-                    }else{
-                        $(".top_right").slideUp();
-                        is_open = false;
-                    }
-                    $(".top_right").slideToggle();
-                });
-            }
-        });
-    </script> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/menu&go_top.js"></script>
+    <script src="./js/index.js"></script>
+
 </body>
 </html>

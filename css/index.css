@@ -97,6 +97,7 @@
     text-align: center;
     margin: 50px auto;
     position: relative;
+    overflow: hidden;
     /* display: inline-flex; */
 }
 .wedding h1{
@@ -110,7 +111,6 @@
     display: flex;
     text-align: left;
     letter-spacing: 2px;
-    overflow: hidden;
 }
 
 .wedding_content li > h2{
@@ -131,7 +131,6 @@
 .wedding_content li{
     /* outline: 1px solid yellow; */
     width: 400px;
-    /* height: 600px; */
     margin-right: 20px;
     flex-shrink: 0;
     box-shadow: 2px 2px 3px rgb(181, 179, 179);
@@ -150,6 +149,7 @@
     font-size: 30px;
     margin: 10px;
     color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 
 .fa-chevron-left{
@@ -159,6 +159,7 @@
     font-size: 30px;
     margin: 10px;
     color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 
 /* -------------- 新人評價 --------------- */

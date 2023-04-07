@@ -16,13 +16,18 @@ body{
     text-decoration: none;
     color: rgb(98, 95, 95);
     position: fixed;
-    bottom: 30px;
-    right: 380px;
+    bottom: 4vw;
+    right: 20vw;
     z-index: 99;
+    opacity: 0;
 }
 
+#up_icon.show {
+    opacity: 1;
+  }
+
 #up_icon:hover .fa-circle-chevron-up{
-    color:  hsla(200, 100%, 50%, .8)
+    cursor: pointer;
 }
 
 
@@ -133,7 +138,7 @@ body{
     right: 0px;
     /* top: 100px; */
     top: -660px;
-    opacity: 0;
+    opacity: 1;
     transition: 1s;
 }
 
@@ -169,7 +174,7 @@ body{
 
 .top_right li:hover a,
 .top_content li:hover .ask{
-    color:hsla(200, 100%, 50%, .8)
+    color:hsla(200, 100%, 50%, .8);
 }
 
 
