@@ -56,4 +56,28 @@
 
                     });
                 }
+
+
+
+                // 新人推薦
+                new WOW().init();
+                // 先將Animate.style插件的class加到img裡
+                $('.evaluate_content li').addClass('animate__animated animate__flipInY');
+
+                $(document).click(function(e){
+                    // 判斷點擊的元素是否為評價區域內的圖片或文字
+                    if (!$(e.target).closest('.evaluate_content li').length) {
+                        // 將所有圖片恢復顯示狀態
+                        $(".evaluate_content li .wow").css({transform:"rotateY(0deg)", opacity: 1});
+                    }
+                });
+                
+                    $(".evaluate_content li").click(function(e) {
+                        e.stopPropagation();  // 防止點擊圖片時也觸發空白區域的點擊事件
+                        // 翻轉圖片並隱藏
+                        $(this).find(".wow").css({transform:"rotateY(180deg)", opacity: 0});
+                        // 恢復前一個被點擊的圖片
+                        $(".evaluate_content li").not(this).find(".wow").css({transform:"rotateY(0deg)", opacity: 1});
+                    });
+                
             });
