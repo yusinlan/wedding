@@ -33,7 +33,7 @@ $(function(){
 
      btn.on('click', function(e) {
         e.preventDefault();
-         $('html, body').animate({scrollTop:0}, '800');
+         $('html, body').animate({scrollTop:0}, '900');
          $(".fa-circle-chevron-up").css({color:"rgb(98, 95, 95)"});
          
      });

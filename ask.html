@@ -81,7 +81,7 @@
 
                         <li>
                             <label for="phone">連絡電話:</label>
-                            <input type="text" id="phone" placeholder="請輸入手機號碼">
+                            <input type="tel" id="phone" placeholder="請輸入手機號碼">
                         </li>
 
                         <li>
@@ -90,7 +90,7 @@
                         </li>
                         <li>
                             <label for="E-mail">E-mail:</label>
-                            <input type="text" id="E-mail" placeholder="ex:123@gmail.com">
+                            <input type="email" id="E-mail" placeholder="ex:123@gmail.com">
                         </li>
 
                         <ul class="form_time">
@@ -101,8 +101,9 @@
                             <li>
                                 <label for="time">服務時段:</label>
                                 <select name="服務時段" id="time">
-                                    <option value="">午宴</option>
-                                    <option value="">晚宴</option>
+                                    <option value="">請選擇</option>
+                                    <option value="午宴">午宴</option>
+                                    <option value="晚宴">晚宴</option>
                                 </select>
                             </li>
                         </ul>
@@ -145,7 +146,7 @@
                     <ul>
                         <li>
                             <label>從何得知我們?(謝謝您抽空填寫表單,我們會盡快回覆您的相關資訊!感謝)</label>
-                            <textarea></textarea>
+                            <textarea id="textarea"></textarea>
                         </li>
                         <li>
                             <input class="send" type="submit" value="送出">
@@ -176,9 +177,9 @@
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        
-    </script>
+    <script src="./js/menu&go_top.js"></script>
+    <script src="./js/ask.js"></script>
+
     
 </body>
 </html>
