@@ -46,6 +46,7 @@
 
 .main_left:hover{
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .main_left img{
@@ -79,6 +80,7 @@
 
 .main_right:hover{
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .main_right img{
