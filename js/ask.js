@@ -119,7 +119,7 @@ $(document).ready(function() {
         // 如果欄位有 valid = false 顯示錯誤訊息且畫面回到頂端
         alert(errorMsg);
         $('html, body').animate({
-          scrollTop: $('.form li:has([style*="border-color: red"])').first().offset().top - 50
+          scrollTop: $('.form li:has([style*="border-color: red"])').first().offset().top - 200
         }, 500);
         $(".send").css({borderColor:"rgb(235, 221, 221)"});
         return false;
