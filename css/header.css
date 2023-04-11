@@ -16,8 +16,8 @@ body{
     text-decoration: none;
     color: rgb(98, 95, 95);
     position: fixed;
-    bottom: 4vw;
-    right: 20vw;
+    bottom: 30px;
+    right: 40px;
     z-index: 99;
     opacity: 0;
 }
