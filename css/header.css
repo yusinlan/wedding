@@ -9,6 +9,7 @@ body{
 .wrapper{
     width: 1200px;
     margin: 0 auto;
+    position: relative;
 }
 
 #up_icon{
@@ -55,38 +56,44 @@ body{
 /* ----------- top_left --------- */
 .top_left{
     /* outline: 1px solid gray; */
-    width: 250px;
-    
+    width: 10%;
+    text-align: center;
+    margin: 0 auto;
 }
 
-.top_content{
-    /* outline: 1px solid black; */
-    font-size: 18px;
-    letter-spacing: 2px;
-}
-
-.top_content li{
-    /* outline: 1px solid yellow; */
-    padding: 10px;
-    font-size: 14px;
-}
-
-.top_content li a{
-    padding-left: 15px;
-    color: black;
-}
-
-.top_content li a i{
+.top_left .ask i{
     margin-right: 10px;
+    font-size: 20px;
 }
 
-.top_content .ask{
-    font-size: 16px;
+.top_left .ask{
+    font-size: 18px;
     text-decoration: none;
+    color: black;
+    display: block;
+    width: 50%;
+    line-height: 3.5;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 2px;
+    background-color: rgb(255, 237, 237);
+    border: 1px solid rgb(235, 221, 221);
+    border-width: 1px 1px 3px;
 }
+
+.top_left:hover .ask{
+    background-color: rgb(253, 146, 185);
+    color: white;
+}
+
+
+
+
 
 .top_logo {
-    margin-left: 4%;
+    margin-left: 16.5%;
     /* text-align: center; */
 }
 
@@ -107,6 +114,8 @@ body{
     /* outline: 1px solid purple;  */
     text-align: end;
     position: relative;
+    z-index: 50;
+    
 }
 
 .top_menu .fa-bars{
@@ -121,10 +130,6 @@ body{
     letter-spacing: 2px;
 }
 
-.top_menu:hover ul{
-    opacity: 1;
-    transform: translateY(760px);
-}
 
 
 /* -------------top_right------------- */
@@ -134,7 +139,7 @@ body{
     text-align: center;
     font-size: 18px;
     position: absolute;
-    width: 100%;
+    width: 30%;
     right: 0px;
     /* top: 100px; */
     top: -660px;
@@ -150,6 +155,10 @@ body{
 .top_right .right_i{
     text-align: left;
     font-size: 14px;
+}
+
+.top_right li:last-child{
+    padding-bottom: 10px;
 }
 
 .top_right .right_nav{
@@ -172,8 +181,8 @@ body{
 }
 
 
-.top_right li:hover a,
-.top_content li:hover .ask{
+
+.top_right li:hover a{
     color:hsla(200, 100%, 50%, .8);
 }
 

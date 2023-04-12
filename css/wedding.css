@@ -123,9 +123,9 @@
     /* border: 1px solid red; */
     background-color: rgb(255, 252, 248);
     width: 40%;
-    margin-bottom: 50px;
-    margin-top: -50px;
+    margin-top: -100px;
     box-shadow: 2px 2px 3px rgb(208, 207, 207);
+    text-align: center;
 
 }
 
@@ -138,25 +138,13 @@
     justify-content: center;
 }
 
-.wedding_1 ul{
-    /* border: 1px solid blue; */
-    width: 100%;
-    /* flex-grow: 1; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.wedding_1 ul li{
-    /* border: 1px solid purple; */
-    
-}
 
 
 /* ------------------- wedding_1_left ------------------ */
 
 .wedding_1_left{
     /* border: 1px solid brown; */
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -168,7 +156,7 @@
 .wedding_1_left > li:nth-child(3){
     /* border: 1px solid black; */
     width: 40%;
-    margin:-50px 0 50px 50px;
+    margin-top: -100px;
     box-shadow: 3px 3px 5px rgb(208, 207, 207);
 }
 
@@ -182,14 +170,13 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     justify-content: center;
 }
 
 .wedding_1_right li{
     /* border: 1px solid purple; */
     width: 85%;
-    /* margin-left: 30px; */
     margin-bottom: 30px;
     box-shadow: 3px 3px 5px rgb(208, 207, 207);
 }
@@ -204,17 +191,6 @@
     margin-top: 100px;
 }
 
-.wedding_2 ul{
-    width: 100%;
-    /* flex-grow: 1; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.wedding_2 ul li{
-     /* border: 1px solid purple; */
-}
 
 
 /* ---------------- wedding_2_left ------------------- */
@@ -224,7 +200,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     justify-content: center;
 }
 
@@ -240,6 +216,7 @@
 /* ---------------- wedding_2_right ------------------- */
 .wedding_2_right{
     /* border: 1px solid brown; */
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -250,7 +227,7 @@
 .wedding_2_right > li:nth-child(2){
     /* border: 1px solid black; */
     width: 40%;
-    margin: -50px 50px 50px 0;
+    margin-top: -100px;
     box-shadow: -3px 3px 5px rgb(208, 207, 207);
 }
 
@@ -265,31 +242,22 @@
 
 }
 
-.wedding_3 ul{
-    /* border: 1px solid blue; */
-    width: 100%;
-    /* flex-grow: 1; */    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.wedding_3 li{
-    /* border: 1px solid blueviolet; */
-}
 
 
 /* ---------------------- wedding_3_left --------------------- */
 .wedding_3_left{
     /* border: 1px solid yellow; */
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .wedding_3_left > li:nth-child(3){
     /* border: 1px solid black; */
     width: 40%;
-    margin:-50px 0 50px 50px;
+    margin-top: -100px;
     box-shadow: 3px 3px 5px rgb(208, 207, 207);
 }
 
@@ -301,7 +269,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     justify-content: center;
 }
 

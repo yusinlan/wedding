@@ -38,6 +38,8 @@
 }
 .wedding_content li{
     width: 100vw;
+    margin-right: 0;
+    box-shadow: none;
 }
 
 .wedding_content li > h2{
@@ -77,10 +79,21 @@
     margin: 10px auto;
 }
 
-.evaluate_content li > p,
-.evaluate_content p + p{
-    font-size: .5rem;
+.evaluate_content li > p{
+    font-size: 1rem;
     margin-top: 0;
+}
+
+
+.evaluate_content p + p{
+    font-size: .9rem;
+    margin-top: 0;
+}
+
+.evaluate_content li > p + img{
+    width: 95vw;
+    top: 30px;
+    left: -21px;
 }
 
 }

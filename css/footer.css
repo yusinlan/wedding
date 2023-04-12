@@ -62,11 +62,13 @@
 
 .bottom{
     background-color: rgb(253, 200, 213, .3);
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     padding-bottom: 10px;
     margin-top: 40px;
 }
+
+
 
 .bottom_content{
     /* border: 1px solid red; */
@@ -76,7 +78,7 @@
 
 .bottom_content img{
     /* border: 1px solid blue; */
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .bottom_content ul{
@@ -96,11 +98,20 @@
 
 .bottom_content a{
     /* border: 1px solid red; */
+
     text-decoration: none;
     color: black;
     letter-spacing: 2px;
+    display: block;
     width: 100%;
+    margin-bottom: 10px;
 }
+
+.bottom_content > a{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
 
 
 .bottom_content .fa-map-location-dot{

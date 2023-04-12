@@ -1,20 +1,16 @@
 $(function(){
     // menu
-    let viewport = $(window).width();
-    if( viewport <= 1024){
         let is_open = false // 關閉是false,開啟是true
         $(".top_menu .fa-bars").click(function(){
             if( is_open == false){
-                $(".top_right").animate({top:"-660px", opacity: 1},200);
+                $(".top_right").animate({top:"100px", opacity: 1},200);
                 is_open = true;
             }else{
-                $(".top_right").animate({top:"-1200px", opacity: 0},100);
+                $(".top_right").animate({top:"-1200px", opacity: 0},200);
                 is_open = false;
             }
         });
-    }else{
-        $(".top_right").css({top:"-660px"});
-    }
+    
 
 
 
